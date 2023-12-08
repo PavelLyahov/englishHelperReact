@@ -1,0 +1,28 @@
+# Игнорировать папку node_modules внутри front
+front/node_modules/
+
+# Игнорировать папку node_modules внутри back
+back/node_modules/
+
+# Игнорировать все файлы с расширением .log
+*.log
+
+*.psd
+token.txt
+hello-js.zip.zip
+
+# Игнорировать файлы, созданные редакторами кода
+.vscode/
+.idea/
+
+# Игнорировать файлы настроек npm
+package-lock.json
+npm-debug.log
+
+# Игнорировать файлы конфигурации Yarn
+yarn.lock
+
+# Игнорировать временные файлы
+.tmp/
+.temp/
+

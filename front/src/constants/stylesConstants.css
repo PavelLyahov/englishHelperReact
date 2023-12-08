@@ -1,0 +1,12 @@
+:root {
+	--primary-color: #344c11;
+	--secondary-color: #bacda1;
+	--background-color: #aec09a;
+	--text-color: #d4dbe2;
+	--text-color-dark: #1c2d03;
+	--active-element: #aec670;
+
+	--big-font: 24px;
+	--middle-font: 20px;
+	--small-font: 16px;
+}

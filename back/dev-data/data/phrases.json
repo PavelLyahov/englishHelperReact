@@ -1,0 +1,12 @@
+[
+    {
+        "id": 0,
+        "native": "My name is Pavel",
+        "translate": "Меня зовут Павел"
+    },
+    {
+        "id": 1,
+        "native": "ChatJPT is very helpfull",
+        "translate": "Чат ЖПТ очень полезный"
+    }
+]

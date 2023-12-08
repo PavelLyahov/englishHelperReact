@@ -1,0 +1,30 @@
+@import url('../../../constants/stylesConstants');
+
+.managerPanel {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	height: 40px;
+	width: 60px;
+	background-color: var(--secondary-color);
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: 0px;
+	border: 1px solid var(--text-color-dark);
+}
+
+button:hover {
+	background-color: var(--text-color);
+}
+
+select,
+input {
+	margin: 0px;
+	width: 150px;
+	height: 40px;
+}

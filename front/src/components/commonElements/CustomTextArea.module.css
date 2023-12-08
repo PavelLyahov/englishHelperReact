@@ -1,0 +1,20 @@
+.container {
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap; /* Позволяет переносить элементы на следующую строку при нехватке места */
+	align-items: center;
+	justify-content: center; /* Выравниваем элементы по центру */
+}
+
+.word {
+	display: flex;
+	align-items: center;
+	justify-content: center; /* Выравниваем текст по центру внутри блока */
+	padding: 8px;
+	margin: 4px;
+	cursor: pointer;
+	color: black;
+	box-sizing: border-box; /* Учитываем границу в общей ширине и высоте элемента */
+	max-width: 100%; /* Ограничиваем ширину элемента по максимальной ширине контейнера */
+	word-wrap: break-word; /* Перенос слов при нехватке места */
+}

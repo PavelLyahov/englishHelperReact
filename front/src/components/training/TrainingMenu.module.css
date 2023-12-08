@@ -1,0 +1,14 @@
+@import url(../../constants/stylesConstants.css);
+
+.header {
+	background-color: var(--active-element);
+	padding: 16px;
+}
+
+.nav {
+	color: var(--text-color-dark);
+}
+
+.nav:hover {
+	color: #3772419a;
+}

@@ -1,0 +1,36 @@
+@import url('../../../constants/stylesConstants.css');
+
+.translator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.textarea {
+	width: 40%;
+	outline: none;
+}
+
+.textarea,
+.translateButton {
+	height: 70px;
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 0;
+	font-size: 16px;
+	border: 1px solid var(--primary-color);
+	resize: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--primary-color);
+}
+
+.translateButton {
+	width: 5%;
+	background-color: white;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
